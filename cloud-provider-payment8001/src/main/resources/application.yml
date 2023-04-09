@@ -23,9 +23,9 @@ eureka:
     fetch-registry: true
     service-url:
       #集群配置
-      #defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/
       #单机模式
-      defaultZone: http://eureka7001.com:7001/eureka/
+      #defaultZone: http://eureka7001.com:7001/eureka/
   instance:
     #显示在注册中心status下的名称
     instance-id: payment8001
